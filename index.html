@@ -82,18 +82,26 @@
     <!-- 进位，带有placeholder的元素仅占位作用，不显示 -->
     <ul class="carry">
       <!-- <li class="c0">c0</li> -->
-      <li class="c0">c0<div class="dot"></div></li>
+      <li class="c0">c0</li>
       <!-- <li class="c0 placeholder"></li> -->
       <!-- <li class="c1">c1</li>
       <li class="c1"></li> -->
-      <li class="c1">c1<div class="dot"></div></li>
+      <li class="c1"></li>
       <!-- <li class="c2">c2</li>
       <li class="c2"></li> -->
-      <li class="c2">c2<div class="dot"></div></li>
+      <li class="c2"></li>
       <!-- <li class="c3">c3</li>
       <li class="c3"></li> -->
-      <li class="c3">c3<div class="dot"></div></li>
-      <!-- <li class="c4">c4</li> -->
+      <li class="c3"></li>
+      <li class="c4"></li>
+
+      <li class="c0"></li>
+      <li class="c0"></li>
+      <li class="c0"></li>
+      <li class="c0"></li>
+      <li class="c0"></li>
+      <li class="c0"></li>
+      <li class="c0"></li>
     </ul>
     <!-- 两类异或门输出线，下面4个异或门，上面4个
       3号线是输出结果的异或门，补充线删除了
@@ -148,6 +156,16 @@
 
       <li class="xor2">P2</li> <!--31 漏的一个 &-->
       <li class="xor3">P3</li> <!--32 漏的一个 &-->
+      
+      <li class="xor8 c1"></li> <!--G0旁边的异或门到s1-->
+      <li class="xor8 c1">c1</li> 
+
+      <li class="xor9 c2"></li><!-- G1->S2 -->
+      <li class="xor9 c2">c2</li>
+
+      <li class="xor10 c3"></li><!-- G2->S3 -->
+      <li class="xor10 c3">c3</li>
+
 
     </ul>
     <!-- 14个与门的输出 上面10个，下面4个-->
